@@ -1,0 +1,12 @@
+﻿  App.cpp
+  Entity.cpp
+  Game.cpp
+  GameCommon.cpp
+  Main_Windows.cpp
+  Player.cpp
+  Prop.cpp
+  Generating Code...
+  Game.vcxproj -> C:\p4\Personal\SD\Chess3D\Temporary\Protogame3D_x64_Debug\Protogame3D_Debug_x64.exe
+  Copying Protogame3D_Debug_x64.exe to C:\p4\Personal\SD\Chess3D\Run...
+  C:\p4\Personal\SD\Chess3D\Temporary\Protogame3D_x64_Debug\Protogame3D_Debug_x64.exe -> C:\p4\Personal\SD\Chess3D\Run\Protogame3D_Debug_x64.exe
+  1 File(s) copied

@@ -1,0 +1,17 @@
+﻿  App.cpp
+  ChessBoard.cpp
+  ChessMatch.cpp
+  ChessPiece.cpp
+  ChessPieceDefinition.cpp
+  Game.cpp
+  GameCommon.cpp
+  Main_Windows.cpp
+  Player.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 2712 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Game.vcxproj -> C:\p4\Personal\SD\Chess3D\Temporary\Chess3D_x64_Release\Chess3D_Release_x64.exe
+  Copying Chess3D_Release_x64.exe to C:\p4\Personal\SD\Chess3D\Run...
+  C:\p4\Personal\SD\Chess3D\Temporary\Chess3D_x64_Release\Chess3D_Release_x64.exe -> C:\p4\Personal\SD\Chess3D\Run\Chess3D_Release_x64.exe
+  1 File(s) copied

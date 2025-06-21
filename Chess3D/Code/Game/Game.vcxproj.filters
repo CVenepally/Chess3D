@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Gameplay">
+      <UniqueIdentifier>{7d42a3cc-7970-4af4-becf-8b1f9b586038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML Files">
+      <UniqueIdentifier>{0bf5843d-cecd-4aba-bb0e-ac9368dce2df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{b542ce09-f3ca-44f3-83a2-c17089b079c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Textures">
+      <UniqueIdentifier>{e3603d5c-55cb-442f-abb0-db4fda93b966}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Chess">
+      <UniqueIdentifier>{61a9acbd-5710-413b-995f-13f32c338695}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_Windows.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCommon.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessMatch.cpp">
+      <Filter>Gameplay\Chess</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessBoard.cpp">
+      <Filter>Gameplay\Chess</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessPieceDefinition.cpp">
+      <Filter>Gameplay\Chess</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessPiece.cpp">
+      <Filter>Gameplay\Chess</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCommon.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineBuildPreferences.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="ChessMatch.hpp">
+      <Filter>Gameplay\Chess</Filter>
+    </ClInclude>
+    <ClInclude Include="ChessBoard.hpp">
+      <Filter>Gameplay\Chess</Filter>
+    </ClInclude>
+    <ClInclude Include="ChessPieceDefinition.hpp">
+      <Filter>Gameplay\Chess</Filter>
+    </ClInclude>
+    <ClInclude Include="ChessPiece.hpp">
+      <Filter>Gameplay\Chess</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\Run\Data\GameConfig.xml">
+      <Filter>XML Files</Filter>
+    </Xml>
+    <Xml Include="..\..\Run\Data\Definitions\ChessPieceDefinitions.xml">
+      <Filter>XML Files</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\Run\Data\Images\TestUV.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="..\..\Run\Data\Images\Kenobi.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="..\..\Run\Data\Images\Kenobi_N.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="..\..\Run\Data\Images\WoodPieces.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="..\..\Run\Data\Images\WoodPieces_N.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="..\..\Run\Data\Images\Bricks_d.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="..\..\Run\Data\Images\Bricks_n.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="..\..\Run\Data\Images\Bricks_sge.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="..\..\Run\Data\Images\Cobblestone_d.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="..\..\Run\Data\Images\Cobblestone_n.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="..\..\Run\Data\Images\Cobblestone_sge.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="..\..\Run\Data\Images\FunkyBricks_d.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="..\..\Run\Data\Images\FunkyBricks_n.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="..\..\Run\Data\Images\FunkyBricks_sge.png">
+      <Filter>Textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\..\Run\Data\Shaders\Diffuse.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Run\Data\Shaders\BlinnPhong.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

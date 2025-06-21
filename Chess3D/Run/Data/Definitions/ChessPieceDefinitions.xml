@@ -1,0 +1,57 @@
+<Definitions>
+
+	<Definition
+		pieceType="Pawn"
+		playerOneGlyph="P"
+		playerTwoGlyph="p"
+		shader="Data/Shaders/BlinnPhong"
+		textureOne="FunkyBricks"
+		textureTwo="Cobblestone"
+	/>
+
+	<Definition
+		pieceType="King"
+		playerOneGlyph="K"
+		playerTwoGlyph="k"
+		shader="Data/Shaders/BlinnPhong"
+		textureOne="FunkyBricks"
+		textureTwo="Cobblestone"
+	/>
+
+	<Definition
+		pieceType="Queen"
+		playerOneGlyph="Q"
+		playerTwoGlyph="q"
+		shader="Data/Shaders/BlinnPhong"
+		textureOne="FunkyBricks"
+		textureTwo="Cobblestone"
+	/>
+
+	<Definition
+		pieceType="Rook"
+		playerOneGlyph="R"
+		playerTwoGlyph="r"
+		shader="Data/Shaders/BlinnPhong"
+		textureOne="FunkyBricks"
+		textureTwo="Cobblestone"
+	/>
+
+	<Definition
+		pieceType="Knight"
+		playerOneGlyph="N"
+		playerTwoGlyph="n"
+		shader="Data/Shaders/BlinnPhong"
+		textureOne="FunkyBricks"
+		textureTwo="Cobblestone"
+	/>
+
+	<Definition
+		pieceType="Bishop"
+		playerOneGlyph="B"
+		playerTwoGlyph="b"
+		shader="Data/Shaders/BlinnPhong"
+		textureOne="FunkyBricks"
+		textureTwo="Cobblestone"
+	/>
+
+</Definitions>
